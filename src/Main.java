@@ -6,12 +6,12 @@ public class Main {
 
         System.out.println("Задача 1 ");
 
-        int age = 19;
+        int age = 14;
         if (age >= 18) {
             System.out.println(" Если возраст человека равен " + age + " то он совершеннолетний");
         }
 
-        if (age < 18) {
+       else {
             System.out.println(" Если возраст человека равен " + age + " то он не достиг совершеннолетия, нужно немного подождать");
         }
 
@@ -23,7 +23,7 @@ public class Main {
         if (temperature < 5) {
             System.out.println(" На улице холодно, нужно надеть шапку ");
         }
-        if (temperature > 5) {
+        else  {
             System.out.println(" Сегодня тепло, можно идти без шапки ");
         }
 
@@ -92,13 +92,15 @@ public class Main {
         System.out.println("Задача 7 ");
 
         int one = 1;
-        int two = 2;
-        int three = 3;
+        int two = 6;
+        int three = 7;
 
-        if (two > one && two < three) {
-            System.out.println("самое большо  число " + three);
+        if (one > two && one > three) {
+            System.out.println("Число one больше остальных");
+        } else if (two > one && two > three) {
+            System.out.println("Число two больше остальных");
         } else {
-            System.out.println("все сломалось ");
+            System.out.println("Число three больше остальных");
         }
 
 
