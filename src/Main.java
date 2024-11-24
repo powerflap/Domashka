@@ -96,7 +96,7 @@ public class Main {
         int three = 3;
 
         if (two > one && two < three) {
-            System.out.println("самое большое число " + three);
+            System.out.println("самое большо  число " + three);
         } else {
             System.out.println("все сломалось ");
         }
