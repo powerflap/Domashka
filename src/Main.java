@@ -9,9 +9,7 @@ public class Main {
         int age = 14;
         if (age >= 18) {
             System.out.println(" Если возраст человека равен " + age + " то он совершеннолетний");
-        }
-
-       else {
+        } else {
             System.out.println(" Если возраст человека равен " + age + " то он не достиг совершеннолетия, нужно немного подождать");
         }
 
@@ -22,8 +20,7 @@ public class Main {
 
         if (temperature < 5) {
             System.out.println(" На улице холодно, нужно надеть шапку ");
-        }
-        else  {
+        } else {
             System.out.println(" Сегодня тепло, можно идти без шапки ");
         }
 
